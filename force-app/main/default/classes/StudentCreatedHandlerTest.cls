@@ -6,7 +6,7 @@ public class StudentCreatedHandlerTest {
         
         Test.startTest();
         
-        Student__c student=new Student__c(Name='Bill',Mark__c=5,Email__c='testEmail@gmail.com');
+        Student__c student=new Student__c(Name='Bill',Mark__c=10,Email__c='testEmail@gmail.com');
         
         insert student;
         
